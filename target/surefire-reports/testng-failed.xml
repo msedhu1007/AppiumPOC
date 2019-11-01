@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [coteafs-appium Test Suite]">
+  <test name="Android Test(failed)">
+    <parameter name="server" value="android"/>
+    <parameter name="device" value="test_local"/>
+    <classes>
+      <class name="com.jtv.tests.getStartedTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="teardownMethod"/>
+          <include name="tearDownTest"/>
+          <include name="setupMethod"/>
+          <include name="testGetStarted"/>
+        </methods>
+      </class> <!-- com.jtv.tests.getStartedTest -->
+    </classes>
+  </test> <!-- Android Test(failed) -->
+</suite> <!-- Failed suite [coteafs-appium Test Suite] -->

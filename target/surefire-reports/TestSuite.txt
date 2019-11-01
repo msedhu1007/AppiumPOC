@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.257 sec <<< FAILURE!
+testGetStarted(com.jtv.tests.getStartedTest)  Time elapsed: 0.994 sec  <<< FAILURE!
+com.github.wasiqb.coteafs.appium.error.DeviceElementNameNotFoundError: DeviceElement with name [GetStarted] not found.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.github.wasiqb.coteafs.error.util.ErrorUtil.fail(ErrorUtil.java:102)
+	at com.github.wasiqb.coteafs.error.util.ErrorUtil.fail(ErrorUtil.java:70)
+	at com.github.wasiqb.coteafs.appium.utils.ErrorUtils.fail(ErrorUtils.java:53)
+	at com.github.wasiqb.coteafs.appium.utils.ErrorUtils.fail(ErrorUtils.java:40)
+	at com.github.wasiqb.coteafs.appium.device.DeviceActivity.getDeviceElement(DeviceActivity.java:211)
+	at com.github.wasiqb.coteafs.appium.device.DeviceActivity.getElement(DeviceActivity.java:99)
+	at com.github.wasiqb.coteafs.appium.android.AndroidActivity.onElement(AndroidActivity.java:68)
+	at com.jtv.tests.getStartedTest.testGetStarted(getStartedTest.java:33)
+

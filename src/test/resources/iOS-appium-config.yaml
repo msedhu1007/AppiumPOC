@@ -1,0 +1,68 @@
+server: &default_server
+  appium_js_path: /usr/local/lib/node_modules/appium/build/lib/main.js
+  node_path: /usr/local/bin/node
+  arguments:
+    log_level: DEBUG
+    log_file: logs/android-server.log
+    log_time_stamp: true
+    local_time_zone: true
+    session_override: true
+
+servers:
+  android:
+    host: 0.0.0.0
+    port: 4724
+    start_up_time_out_seconds: 60
+    <<: *default_server
+
+    app:
+      bundle_id: com.jtv.jtv
+        app_type: NATIVE
+
+device: &default_device
+  platform_type: IOS
+  device_name: Jtv iPad
+    udid: 5b04ee6f9f8e9cf7d885b5e2849c31d58bcaa3ee
+      device_version: 12.4.1
+  device_type: REAL
+  external_app: false
+  automation_name: XCUI
+session_timeout: 120000
+  clear_system_files: true
+  no_reset: false
+  full_reset: true
+  playback:
+    record:
+      enabled: false
+    delay_before_swipe: 200
+    delay_after_swipe: 100
+    delay_before_tap: 0
+    delay_after_tap: 0
+  cloud_app: false
+
+wda:
+  use_new: true
+  local_port: 8100
+  retries: 2
+  retry_interval: 10000
+  update_bundle_id: com.facebook.MyWebDriverAgentRunner
+  team_id: <10 char Team ID>
+  signing_id: iPhone Developer
+  bootstrap_path: /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent
+  agent_path: /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj
+  timeouts:
+    wda_connection: 600
+    wda_launch: 600
+    wda_command: 600
+    launch: 10000
+    screenshot: 10
+  waits:
+    inter_key: 100
+    ios_install: 500
+
+
+
+
+
+
+

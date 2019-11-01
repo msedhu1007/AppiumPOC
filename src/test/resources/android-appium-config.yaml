@@ -1,0 +1,46 @@
+server: &default_server
+  appium_js_path: /usr/local/lib/node_modules/appium/build/lib/main.js
+  node_path: /usr/local/bin/node
+  arguments:
+    log_level: DEBUG
+    log_time_stamp: true
+    local_time_zone: true
+    session_override: true
+    android:
+      suppress_adb_kill_server: true
+
+servers:
+  android:
+    host: 0.0.0.0
+    port: 4724
+    start_up_time_out_seconds: 60
+    <<: *default_server
+
+device: &default_device
+  platform_type: ANDROID
+  app_type: NATIVE
+  device_type: REAL
+  external_app: false
+  session_timeout: 120000
+  clear_system_files: true
+  no_reset: false
+  full_reset: true
+  playback:
+    record:
+      enabled: false
+    delay_before_swipe: 200
+    delay_after_swipe: 100
+    delay_before_tap: 0
+    delay_after_tap: 0
+
+devices:
+  test_local:
+    device_name: 98892a383146365553
+
+    app_location: apps/android/JTV_Go-ProdRelease-v2.4.0.apk
+    automation_name: APPIUM
+    <<: *default_device
+    device_type: REAL
+    android:
+      app_activity: com.jtv.activity.SplashActivity
+      app_package: com.jtv.staging

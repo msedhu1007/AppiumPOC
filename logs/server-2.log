@@ -1,0 +1,350 @@
+2019-10-15 10:19:48:191 [Appium] Welcome to Appium v1.14.1
+2019-10-15 10:19:48:193 [Appium] Non-default server args:
+2019-10-15 10:19:48:193 [Appium]   port: 4724
+2019-10-15 10:19:48:193 [Appium]   sessionOverride: true
+2019-10-15 10:19:48:193 [Appium]   logFile: /Users/sedmad1/Documents/WS/AppiumPOC/logs/server-2.log
+2019-10-15 10:19:48:193 [Appium]   logTimestamp: true
+2019-10-15 10:19:48:194 [Appium]   localTimezone: true
+2019-10-15 10:19:48:194 [Appium]   suppressKillServer: true
+2019-10-15 10:19:48:194 [Appium]   defaultCapabilities: {
+2019-10-15 10:19:48:194 [Appium]     fullReset: false
+2019-10-15 10:19:48:194 [Appium]     newCommandTimeout: 120
+2019-10-15 10:19:48:195 [Appium]     noReset: false
+2019-10-15 10:19:48:195 [Appium]   }
+2019-10-15 10:19:48:195 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-10-15 10:19:48:195 [Appium]   fullReset: false
+2019-10-15 10:19:48:195 [Appium]   newCommandTimeout: 120
+2019-10-15 10:19:48:196 [Appium]   noReset: false
+2019-10-15 10:19:48:224 [Appium] Appium REST http interface listener started on 0.0.0.0:4724
+2019-10-15 10:19:48:504 [HTTP] --> GET /wd/hub/status
+2019-10-15 10:19:48:505 [HTTP] {}
+2019-10-15 10:19:48:506 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-10-15 10:19:48:507 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.14.1"}}
+2019-10-15 10:19:48:511 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2019-10-15 10:19:48:512 [HTTP] 
+2019-10-15 10:19:48:874 [HTTP] --> POST /wd/hub/session
+2019-10-15 10:19:48:875 [HTTP] {"desiredCapabilities":{"app":"/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk","appPackage":"com.jtv.staging","clearSystemFiles":true,"noReset":false,"deviceName":"98892a383146365553","fullReset":true,"appWaitDuration":0,"appActivity":"com.jtv.activity.SplashActivity","androidInstallTimeout":0,"newCommandTimeout":120000,"automationName":"Appium","autoGrantPermissions":false,"eventTimings":false,"platformName":"Android"},"capabilities":{"firstMatch":[{"appium:androidInstallTimeout":0,"appium:app":"/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk","appium:appActivity":"com.jtv.activity.SplashActivity","appium:appPackage":"com.jtv.staging","appium:appWaitDuration":0,"appium:autoGrantPermissions":false,"appium:automationName":"Appium","appium:clearSystemFiles":true,"appium:deviceName":"98892a383146365553","appium:eventTimings":false,"appium:fullReset":true,"appium:newCommandTimeout":1200
+2019-10-15 10:19:48:875 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk","appPackage":"com.jtv.staging","clearSystemFiles":true,"noReset":false,"deviceName":"98892a383146365553","fullReset":true,"appWaitDuration":0,"appActivity":"com.jtv.activity.SplashActivity","androidInstallTimeout":0,"newCommandTimeout":120000,"automationName":"Appium","autoGrantPermissions":false,"eventTimings":false,"platformName":"Android"},null,{"firstMatch":[{"appium:androidInstallTimeout":0,"appium:app":"/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk","appium:appActivity":"com.jtv.activity.SplashActivity","appium:appPackage":"com.jtv.staging","appium:appWaitDuration":0,"appium:autoGrantPermissions":false,"appium:automationName":"Appium","appium:clearSystemFiles":true,"appium:deviceName":"98892a383146365553","appium:eventTimings":false,"appium:fullReset":true,"appium:newCommandTimeout":120000,"appium:noReset":false,"platformName":"android"}]}]
+2019-10-15 10:19:48:876 [BaseDriver] Event 'newSessionRequested' logged at 1571149188876 (10:19:48 GMT-0400 (Eastern Daylight Time))
+2019-10-15 10:19:48:881 [Appium] 
+2019-10-15 10:19:48:882 [Appium] ======================================================================
+2019-10-15 10:19:48:882 [Appium]   DEPRECATION WARNING:
+2019-10-15 10:19:48:882 [Appium] 
+2019-10-15 10:19:48:882 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-10-15 10:19:48:882 [Appium]   capabilities for this Android session
+2019-10-15 10:19:48:882 [Appium] 
+2019-10-15 10:19:48:882 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2019-10-15 10:19:48:883 [Appium]   UiAutomator2 Driver
+2019-10-15 10:19:48:883 [Appium] 
+2019-10-15 10:19:48:883 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-10-15 10:19:48:883 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-10-15 10:19:48:883 [Appium]   platforms
+2019-10-15 10:19:48:883 [Appium] 
+2019-10-15 10:19:48:884 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2019-10-15 10:19:48:884 [Appium]   'automationName=UiAutomator1'
+2019-10-15 10:19:48:884 [Appium] 
+2019-10-15 10:19:48:884 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2019-10-15 10:19:48:884 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2019-10-15 10:19:48:885 [Appium] 
+2019-10-15 10:19:48:885 [Appium]   For more information about drivers, please visit 
+2019-10-15 10:19:48:885 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-10-15 10:19:48:885 [Appium]   'Drivers' menu
+2019-10-15 10:19:48:885 [Appium] 
+2019-10-15 10:19:48:886 [Appium] ======================================================================
+2019-10-15 10:19:48:886 [Appium] 
+2019-10-15 10:19:48:973 [Appium] Appium v1.14.1 creating new AndroidUiautomator2Driver (v1.33.1) session
+2019-10-15 10:19:48:973 [Appium] Capabilities:
+2019-10-15 10:19:48:973 [Appium]   platformName: android
+2019-10-15 10:19:48:973 [Appium]   androidInstallTimeout: 0
+2019-10-15 10:19:48:973 [Appium]   app: /Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk
+2019-10-15 10:19:48:974 [Appium]   appActivity: com.jtv.activity.SplashActivity
+2019-10-15 10:19:48:974 [Appium]   appPackage: com.jtv.staging
+2019-10-15 10:19:48:974 [Appium]   appWaitDuration: 0
+2019-10-15 10:19:48:974 [Appium]   autoGrantPermissions: false
+2019-10-15 10:19:48:974 [Appium]   automationName: Appium
+2019-10-15 10:19:48:975 [Appium]   clearSystemFiles: true
+2019-10-15 10:19:48:975 [Appium]   deviceName: 98892a383146365553
+2019-10-15 10:19:48:975 [Appium]   eventTimings: false
+2019-10-15 10:19:48:975 [Appium]   fullReset: true
+2019-10-15 10:19:48:975 [Appium]   newCommandTimeout: 120000
+2019-10-15 10:19:48:976 [Appium]   noReset: false
+2019-10-15 10:19:48:978 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"fullReset":true,"newComma... were provided
+2019-10-15 10:19:48:978 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-10-15 10:19:48:983 [BaseDriver] Session created with session id: 9949800b-43dc-4329-a1d8-77c6520e808a
+2019-10-15 10:19:49:000 [BaseDriver] Using local app '/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk'
+2019-10-15 10:19:49:000 [UiAutomator2] Checking whether app is actually present
+2019-10-15 10:19:49:007 [ADB] Found 1 'build-tools' folders under '/Users/sedmad1/Library/Android/sdk' (newest first):
+2019-10-15 10:19:49:007 [ADB]     /Users/sedmad1/Library/Android/sdk/build-tools/29.0.2
+2019-10-15 10:19:49:007 [ADB] Using 'adb' from '/Users/sedmad1/Library/Android/sdk/platform-tools/adb'
+2019-10-15 10:19:49:008 [AndroidDriver] Retrieving device list
+2019-10-15 10:19:49:008 [ADB] Trying to find a connected android device
+2019-10-15 10:19:49:008 [ADB] Getting connected devices...
+2019-10-15 10:19:49:017 [ADB] 1 device(s) connected
+2019-10-15 10:19:49:017 [AndroidDriver] Using device: 98892a383146365553
+2019-10-15 10:19:49:018 [ADB] Using 'adb' from '/Users/sedmad1/Library/Android/sdk/platform-tools/adb'
+2019-10-15 10:19:49:018 [ADB] Setting device id to 98892a383146365553
+2019-10-15 10:19:49:019 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell getprop ro.build.version.sdk'
+2019-10-15 10:19:49:100 [ADB] Current device property 'ro.build.version.sdk': 28
+2019-10-15 10:19:49:101 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell getprop ro.build.version.release'
+2019-10-15 10:19:49:139 [ADB] Current device property 'ro.build.version.release': 9
+2019-10-15 10:19:49:140 [ADB] Device API level: 28
+2019-10-15 10:19:49:140 [UiAutomator2] Relaxing hidden api policy
+2019-10-15 10:19:49:145 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell settings put global hidden_api_policy_pre_p_apps 1'
+2019-10-15 10:19:49:256 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell settings put global hidden_api_policy_p_apps 1'
+2019-10-15 10:19:49:331 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell settings put global hidden_api_policy 1'
+2019-10-15 10:19:49:416 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 wait-for-device'
+2019-10-15 10:19:49:424 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell echo ping'
+2019-10-15 10:19:49:464 [AndroidDriver] Pushing settings apk to device...
+2019-10-15 10:19:49:466 [ADB] Getting install status for io.appium.settings
+2019-10-15 10:19:49:466 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell dumpsys package io.appium.settings'
+2019-10-15 10:19:49:554 [ADB] 'io.appium.settings' is installed
+2019-10-15 10:19:49:554 [ADB] Getting package info for 'io.appium.settings'
+2019-10-15 10:19:49:555 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell dumpsys package io.appium.settings'
+2019-10-15 10:19:49:631 [ADB] Using 'aapt' from '/Users/sedmad1/Library/Android/sdk/build-tools/29.0.2/aapt'
+2019-10-15 10:19:49:639 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+2019-10-15 10:19:49:640 [ADB] There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2019-10-15 10:19:49:641 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-10-15 10:19:49:641 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell 'pgrep --help; echo $?''
+2019-10-15 10:19:49:713 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell pgrep -f io\\.appium\\.settings'
+2019-10-15 10:19:49:850 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-10-15 10:19:49:851 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell appops set io.appium.settings android\:mock_location allow'
+2019-10-15 10:19:49:943 [Logcat] Starting logcat capture
+2019-10-15 10:19:50:004 [ADB] Getting install status for io.appium.uiautomator2.server
+2019-10-15 10:19:50:004 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell dumpsys package io.appium.uiautomator2.server'
+2019-10-15 10:19:50:079 [ADB] 'io.appium.uiautomator2.server' is installed
+2019-10-15 10:19:50:079 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2019-10-15 10:19:50:080 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell dumpsys package io.appium.uiautomator2.server'
+2019-10-15 10:19:50:153 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.5.1' >= '3.5.1')
+2019-10-15 10:19:50:154 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2019-10-15 10:19:50:154 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.5.1.apk
+2019-10-15 10:19:50:155 [ADB] Using 'apksigner' from '/Users/sedmad1/Library/Android/sdk/build-tools/29.0.2/apksigner'
+2019-10-15 10:19:50:156 [ADB] Starting '/Users/sedmad1/Library/Android/sdk/build-tools/29.0.2/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.5.1.apk"]'
+2019-10-15 10:19:50:522 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-10-15 10:19:50:522 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-10-15 10:19:50:522 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-10-15 10:19:50:522 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-10-15 10:19:50:522 [ADB] 
+2019-10-15 10:19:50:523 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.5.1.apk' is already signed.
+2019-10-15 10:19:50:523 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2019-10-15 10:19:50:523 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell dumpsys package io.appium.uiautomator2.server.test'
+2019-10-15 10:19:50:590 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2019-10-15 10:19:50:591 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2019-10-15 10:19:50:592 [ADB] Starting '/Users/sedmad1/Library/Android/sdk/build-tools/29.0.2/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
+2019-10-15 10:19:50:884 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-10-15 10:19:50:885 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-10-15 10:19:50:885 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-10-15 10:19:50:885 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-10-15 10:19:50:885 [ADB] 
+2019-10-15 10:19:50:885 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2019-10-15 10:19:50:885 [UiAutomator2] Server packages are not going to be (re)installed
+2019-10-15 10:19:50:886 [UiAutomator2] Waiting up to 30000ms for services to be available
+2019-10-15 10:19:50:886 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell pm list instrumentation'
+2019-10-15 10:19:50:975 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2019-10-15 10:19:50:975 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2019-10-15 10:19:50:975 [ADB] Forwarding system: 8200 to device: 6790
+2019-10-15 10:19:50:976 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 forward tcp\:8200 tcp\:6790'
+2019-10-15 10:19:50:983 [ADB] Uninstalling com.jtv.staging
+2019-10-15 10:19:50:984 [ADB] Getting install status for com.jtv.staging
+2019-10-15 10:19:50:984 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell dumpsys package com.jtv.staging'
+2019-10-15 10:19:51:062 [ADB] 'com.jtv.staging' is not installed
+2019-10-15 10:19:51:063 [ADB] com.jtv.staging was not uninstalled, because it was not present on the device
+2019-10-15 10:19:51:063 [ADB] Checking app cert for /Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk
+2019-10-15 10:19:51:064 [ADB] Starting '/Users/sedmad1/Library/Android/sdk/build-tools/29.0.2/apksigner' with args '["verify","--print-certs","/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk"]'
+2019-10-15 10:19:52:006 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-10-15 10:19:52:007 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-10-15 10:19:52:007 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-10-15 10:19:52:007 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-10-15 10:19:52:007 [ADB] 
+2019-10-15 10:19:52:008 [ADB] '/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk' is already signed.
+2019-10-15 10:19:52:008 [ADB] Getting install status for com.jtv.staging
+2019-10-15 10:19:52:009 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell dumpsys package com.jtv.staging'
+2019-10-15 10:19:52:097 [ADB] 'com.jtv.staging' is not installed
+2019-10-15 10:19:52:098 [AndroidDriver] Running full reset on 'com.jtv.staging' (reinstall)
+2019-10-15 10:19:52:122 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell 'ls -t -1 /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+2019-10-15 10:19:52:200 [ADB] The count of applications in the cache: 4
+2019-10-15 10:19:52:201 [ADB] The application at '/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk' is already cached to '/data/local/tmp/appium_cache/622d2cfc168662f5acdf867a1ad1e5ca927233be.apk'
+2019-10-15 10:19:52:202 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell pm install -r /data/local/tmp/appium_cache/622d2cfc168662f5acdf867a1ad1e5ca927233be.apk'
+2019-10-15 10:20:11:190 [ADB] The installation of 'JTV_Go-ProdRelease-v2.4.0.apk' took 18.988s
+2019-10-15 10:20:11:190 [ADB] Install command stdout: Success
+2019-10-15 10:20:11:191 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2019-10-15 10:20:11:206 [UiAutomator2] No obsolete sessions have been detected (Error: socket hang up)
+2019-10-15 10:20:11:206 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell am force-stop io.appium.uiautomator2.server.test'
+2019-10-15 10:20:11:340 [UiAutomator2] Starting UIAutomator2 server 3.5.1
+2019-10-15 10:20:11:340 [UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.5.1.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2019-10-15 10:20:11:340 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2019-10-15 10:20:11:341 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","98892a383146365553","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2019-10-15 10:20:12:348 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-10-15 10:20:12:350 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-10-15 10:20:12:358 [WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+2019-10-15 10:20:13:228 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2019-10-15 10:20:13:360 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-10-15 10:20:13:360 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-10-15 10:20:13:365 [WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+2019-10-15 10:20:14:367 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-10-15 10:20:14:369 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-10-15 10:20:14:375 [WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+2019-10-15 10:20:15:380 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-10-15 10:20:15:381 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-10-15 10:20:15:476 [WD Proxy] Got response with status 200: "{\"sessionId\":\"None\",\"status\":0,\"value\":\"Status Invoked\"}"
+2019-10-15 10:20:15:476 [WD Proxy] Determined that the downstream protocol for proxy is MJSONWP
+2019-10-15 10:20:15:477 [UiAutomator2] The initialization of the instrumentation process took 4137ms
+2019-10-15 10:20:15:477 [WD Proxy] Matched '/session' to command name 'createSession'
+2019-10-15 10:20:15:477 [WD Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","androidInstallTimeout":0,"app":"/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk","appActivity":"com.jtv.activity.SplashActivity","appPackage":"com.jtv.staging","appWaitDuration":0,"autoGrantPermissions":false,"automationName":"Appium","clearSystemFiles":true,"deviceName":"98892a383146365553","eventTimings":false,"fullReset":true,"newCommandTimeout":120000,"noReset":false},"platformName":"android","androidInstallTimeout":0,"app":"/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk","appActivity":"com.jtv.activity.SplashActivity","appPackage":"com.jtv.staging","appWaitDuration":0,"autoGrantPermissions":false,"automationName":"Appium","clearSystemFiles":true,"d...
+2019-10-15 10:20:15:553 [WD Proxy] Got response with status 200: {"sessionId":"9ef18bef-0001-4232-83f0-2f217e03cbf0","status":0,"value":"Created Session"}
+2019-10-15 10:20:15:562 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0/appium/device/info] with no body
+2019-10-15 10:20:15:643 [WD Proxy] Got response with status 200: "{\"sessionId\":\"9ef18bef-0001-4232-83f0-2f217e03cbf0\",\"status\":0,\"value\":{\"androidId\":\"6003c0afb8d24b17\",\"manufacturer\":\"samsung\",\"model\":\"SM-G950U1\",\"brand\":\"samsung\",\"apiVersion\":\"28\",\"platformVersion\":\"9\",\"carrierName\":\"AT&T\",\"realDisplaySize\":\"1080x2220\",\"displayDensity\":480,\"networks\":[{\"type\":13,\"typeName\":\"WIFI_P2P\",\"subtype\":0,\"subtypeName\":\"\",\"isConnected\":false,\"detailedState\":\"DISCONNECTED\",\"state\":\"DISCONNECTED\",\"extraInfo\":null,\"isAvailable\":true,\"isFailover\":false,\"isRoaming\":false,\"capabilities\":{\"transportTypes\":\"NET_CAPABILITY_SUPL\",\"networkCapabilities\":\"\",\"linkUpstreamBandwidthKbps\":1048576,\"linkDownBandwidthKbps\":1048576,\"signalStrength\":-2147483648,\"networkSpecifier\":null,\"SSID\":null}},{\"type\":1,\"typeName\":\"WIFI\",\"subtype\":0,\"subtypeName\":\"\",\"isConnected\":true,\"detailedState\":\"CONNECTED\",\"state\":\"CONNECTED\",\"extraInfo\":null,\"isAvailable\":true,\"isFailover\":false,\"isR...
+2019-10-15 10:20:15:644 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell dumpsys window'
+2019-10-15 10:20:15:806 [AndroidDriver] Screen already unlocked, doing nothing
+2019-10-15 10:20:15:807 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.jtv.staging/com.jtv.activity.SplashActivity'. Starting it ourselves
+2019-10-15 10:20:15:808 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell am start -W -n com.jtv.staging/com.jtv.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-10-15 10:20:16:995 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0/appium/device/pixel_ratio] with body: {}
+2019-10-15 10:20:17:032 [WD Proxy] Got response with status 200: "{\"sessionId\":\"9ef18bef-0001-4232-83f0-2f217e03cbf0\",\"status\":0,\"value\":3}"
+2019-10-15 10:20:17:034 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2019-10-15 10:20:17:034 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0/appium/device/system_bars] with body: {}
+2019-10-15 10:20:17:071 [WD Proxy] Got response with status 200: "{\"sessionId\":\"9ef18bef-0001-4232-83f0-2f217e03cbf0\",\"status\":0,\"value\":{\"statusBar\":72}}"
+2019-10-15 10:20:17:072 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2019-10-15 10:20:17:072 [WD Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0/window/current/size] with body: {}
+2019-10-15 10:20:17:103 [WD Proxy] Got response with status 200: "{\"sessionId\":\"9ef18bef-0001-4232-83f0-2f217e03cbf0\",\"status\":0,\"value\":{\"height\":2076,\"width\":1080}}"
+2019-10-15 10:20:17:104 [Appium] New AndroidUiautomator2Driver session created successfully, session 9949800b-43dc-4329-a1d8-77c6520e808a added to master session list
+2019-10-15 10:20:17:105 [BaseDriver] Event 'newSessionStarted' logged at 1571149217105 (10:20:17 GMT-0400 (Eastern Daylight Time))
+2019-10-15 10:20:17:106 [W3C (9949800b)] Cached the protocol value 'W3C' for the new session 9949800b-43dc-4329-a1d8-77c6520e808a
+2019-10-15 10:20:17:107 [W3C (9949800b)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","androidInstallTimeout":0,"app":"/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk","appActivity":"com.jtv.activity.SplashActivity","appPackage":"com.jtv.staging","appWaitDuration":0,"autoGrantPermissions":false,"automationName":"Appium","clearSystemFiles":true,"deviceName":"98892a383146365553","eventTimings":false,"fullReset":true,"newCommandTimeout":120000,"noReset":false},"platformName":"android","androidInstallTimeout":0,"app":"/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk","appActivity":"com.jtv.activity.SplashActivity","appPackage":"com.jtv.staging","appWaitDuration":0,"autoGrantPermissions":false,"automationName":"Appium","clearSystemFiles":true,"deviceNa...
+2019-10-15 10:20:17:108 [HTTP] <-- POST /wd/hub/session 200 28233 ms - 1475
+2019-10-15 10:20:17:108 [HTTP] 
+2019-10-15 10:20:17:134 [HTTP] --> GET /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a
+2019-10-15 10:20:17:134 [HTTP] {}
+2019-10-15 10:20:17:135 [W3C (9949800b)] Calling AppiumDriver.getSession() with args: ["9949800b-43dc-4329-a1d8-77c6520e808a"]
+2019-10-15 10:20:17:171 [UiAutomator2] Getting session details from server to mix in
+2019-10-15 10:20:17:172 [WD Proxy] Matched '/' to command name 'getSession'
+2019-10-15 10:20:17:172 [WD Proxy] Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0] with body: {}
+2019-10-15 10:20:17:207 [WD Proxy] Got response with status 200: "{\"sessionId\":\"9ef18bef-0001-4232-83f0-2f217e03cbf0\",\"status\":0,\"value\":{}}"
+2019-10-15 10:20:17:208 [W3C (9949800b)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","androidInstallTimeout":0,"app":"/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk","appActivity":"com.jtv.activity.SplashActivity","appPackage":"com.jtv.staging","appWaitDuration":0,"autoGrantPermissions":false,"automationName":"Appium","clearSystemFiles":true,"deviceName":"98892a383146365553","eventTimings":false,"fullReset":true,"newCommandTimeout":120000,"noReset":false},"platformName":"android","androidInstallTimeout":0,"app":"/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk","appActivity":"com.jtv.activity.SplashActivity","appPackage":"com.jtv.staging","appWaitDuration":0,"autoGrantPermissions":false,"automationName":"Appium","clearSystemFiles":true,"deviceName":"98892a38314...
+2019-10-15 10:20:17:209 [HTTP] <-- GET /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a 200 74 ms - 1407
+2019-10-15 10:20:17:209 [HTTP] 
+2019-10-15 10:20:17:214 [HTTP] --> GET /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a
+2019-10-15 10:20:17:214 [HTTP] {}
+2019-10-15 10:20:17:215 [W3C (9949800b)] Calling AppiumDriver.getSession() with args: ["9949800b-43dc-4329-a1d8-77c6520e808a"]
+2019-10-15 10:20:17:217 [UiAutomator2] Getting session details from server to mix in
+2019-10-15 10:20:17:218 [WD Proxy] Matched '/' to command name 'getSession'
+2019-10-15 10:20:17:218 [WD Proxy] Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0] with body: {}
+2019-10-15 10:20:17:252 [WD Proxy] Got response with status 200: "{\"sessionId\":\"9ef18bef-0001-4232-83f0-2f217e03cbf0\",\"status\":0,\"value\":{}}"
+2019-10-15 10:20:17:253 [W3C (9949800b)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","androidInstallTimeout":0,"app":"/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk","appActivity":"com.jtv.activity.SplashActivity","appPackage":"com.jtv.staging","appWaitDuration":0,"autoGrantPermissions":false,"automationName":"Appium","clearSystemFiles":true,"deviceName":"98892a383146365553","eventTimings":false,"fullReset":true,"newCommandTimeout":120000,"noReset":false},"platformName":"android","androidInstallTimeout":0,"app":"/Users/sedmad1/Documents/WS/AppiumPOC/src/test/resources/apps/android/JTV_Go-ProdRelease-v2.4.0.apk","appActivity":"com.jtv.activity.SplashActivity","appPackage":"com.jtv.staging","appWaitDuration":0,"autoGrantPermissions":false,"automationName":"Appium","clearSystemFiles":true,"deviceName":"98892a38314...
+2019-10-15 10:20:17:254 [HTTP] <-- GET /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a 200 40 ms - 1407
+2019-10-15 10:20:17:254 [HTTP] 
+2019-10-15 10:20:17:261 [HTTP] --> POST /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/timeouts
+2019-10-15 10:20:17:261 [HTTP] {"implicit":30000}
+2019-10-15 10:20:17:263 [W3C (9949800b)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,30000,"9949800b-43dc-4329-a1d8-77c6520e808a"]
+2019-10-15 10:20:17:264 [BaseDriver] W3C timeout argument: {"implicit":30000}}
+2019-10-15 10:20:17:264 [BaseDriver] Set implicit wait to 30000ms
+2019-10-15 10:20:17:265 [W3C (9949800b)] Responding to client with driver.timeouts() result: null
+2019-10-15 10:20:17:265 [HTTP] <-- POST /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/timeouts 200 4 ms - 14
+2019-10-15 10:20:17:266 [HTTP] 
+2019-10-15 10:20:17:293 [HTTP] --> GET /wd/hub/status
+2019-10-15 10:20:17:293 [HTTP] {}
+2019-10-15 10:20:17:293 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-10-15 10:20:17:294 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.14.1"}}
+2019-10-15 10:20:17:294 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2019-10-15 10:20:17:294 [HTTP] 
+2019-10-15 10:20:17:300 [HTTP] --> POST /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/elements
+2019-10-15 10:20:17:300 [HTTP] {"using":"id","value":"android:id/content"}
+2019-10-15 10:20:17:302 [W3C (9949800b)] Calling AppiumDriver.findElements() with args: ["id","android:id/content","9949800b-43dc-4329-a1d8-77c6520e808a"]
+2019-10-15 10:20:17:303 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-10-15 10:20:17:303 [BaseDriver] Waiting up to 30000 ms for condition
+2019-10-15 10:20:17:304 [WD Proxy] Matched '/elements' to command name 'findElements'
+2019-10-15 10:20:17:304 [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0/elements] with body: {"strategy":"id","selector":"android:id/content","context":"","multiple":true}
+2019-10-15 10:20:17:966 [WD Proxy] Got response with status 200: {"sessionId":"9ef18bef-0001-4232-83f0-2f217e03cbf0","status":0,"value":[{"ELEMENT":"c1be5956-bf2e-4064-9395-c6c795c62c29"}]}
+2019-10-15 10:20:17:967 [W3C (9949800b)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"c1be5956-bf2e-4064-9395-c6c795c62c29","ELEMENT":"c1be5956-bf2e-4064-9395-c6c795c62c29"}]
+2019-10-15 10:20:17:968 [HTTP] <-- POST /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/elements 200 668 ms - 139
+2019-10-15 10:20:17:968 [HTTP] 
+2019-10-15 10:20:17:976 [HTTP] --> GET /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/element/c1be5956-bf2e-4064-9395-c6c795c62c29/displayed
+2019-10-15 10:20:17:976 [HTTP] {}
+2019-10-15 10:20:17:978 [W3C (9949800b)] Calling AppiumDriver.elementDisplayed() with args: ["c1be5956-bf2e-4064-9395-c6c795c62c29","9949800b-43dc-4329-a1d8-77c6520e808a"]
+2019-10-15 10:20:17:979 [WD Proxy] Matched '/element/c1be5956-bf2e-4064-9395-c6c795c62c29/attribute/displayed' to command name 'getAttribute'
+2019-10-15 10:20:17:980 [WD Proxy] Proxying [GET /element/c1be5956-bf2e-4064-9395-c6c795c62c29/attribute/displayed] to [GET http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0/element/c1be5956-bf2e-4064-9395-c6c795c62c29/attribute/displayed] with body: {}
+2019-10-15 10:20:18:019 [WD Proxy] Got response with status 200: "{\"sessionId\":\"9ef18bef-0001-4232-83f0-2f217e03cbf0\",\"status\":0,\"value\":\"true\"}"
+2019-10-15 10:20:18:020 [W3C (9949800b)] Responding to client with driver.elementDisplayed() result: true
+2019-10-15 10:20:18:021 [HTTP] <-- GET /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/element/c1be5956-bf2e-4064-9395-c6c795c62c29/displayed 200 45 ms - 14
+2019-10-15 10:20:18:021 [HTTP] 
+2019-10-15 10:20:18:025 [HTTP] --> POST /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/elements
+2019-10-15 10:20:18:028 [HTTP] {"using":"id","value":"android:id/content"}
+2019-10-15 10:20:18:028 [W3C (9949800b)] Calling AppiumDriver.findElements() with args: ["id","android:id/content","9949800b-43dc-4329-a1d8-77c6520e808a"]
+2019-10-15 10:20:18:030 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-10-15 10:20:18:030 [BaseDriver] Waiting up to 30000 ms for condition
+2019-10-15 10:20:18:031 [WD Proxy] Matched '/elements' to command name 'findElements'
+2019-10-15 10:20:18:031 [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0/elements] with body: {"strategy":"id","selector":"android:id/content","context":"","multiple":true}
+2019-10-15 10:20:18:079 [WD Proxy] Got response with status 200: {"sessionId":"9ef18bef-0001-4232-83f0-2f217e03cbf0","status":0,"value":[{"ELEMENT":"c1279c4d-eafb-4688-b7f3-a8375ee12d7d"}]}
+2019-10-15 10:20:18:080 [W3C (9949800b)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"c1279c4d-eafb-4688-b7f3-a8375ee12d7d","ELEMENT":"c1279c4d-eafb-4688-b7f3-a8375ee12d7d"}]
+2019-10-15 10:20:18:080 [HTTP] <-- POST /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/elements 200 55 ms - 139
+2019-10-15 10:20:18:081 [HTTP] 
+2019-10-15 10:20:18:083 [HTTP] --> GET /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/displayed
+2019-10-15 10:20:18:083 [HTTP] {}
+2019-10-15 10:20:18:083 [W3C (9949800b)] Calling AppiumDriver.elementDisplayed() with args: ["c1279c4d-eafb-4688-b7f3-a8375ee12d7d","9949800b-43dc-4329-a1d8-77c6520e808a"]
+2019-10-15 10:20:18:085 [WD Proxy] Matched '/element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/attribute/displayed' to command name 'getAttribute'
+2019-10-15 10:20:18:085 [WD Proxy] Proxying [GET /element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/attribute/displayed] to [GET http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0/element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/attribute/displayed] with body: {}
+2019-10-15 10:20:18:130 [WD Proxy] Got response with status 200: "{\"sessionId\":\"9ef18bef-0001-4232-83f0-2f217e03cbf0\",\"status\":0,\"value\":\"true\"}"
+2019-10-15 10:20:18:131 [W3C (9949800b)] Responding to client with driver.elementDisplayed() result: true
+2019-10-15 10:20:18:131 [HTTP] <-- GET /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/displayed 200 49 ms - 14
+2019-10-15 10:20:18:132 [HTTP] 
+2019-10-15 10:20:18:134 [HTTP] --> GET /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/enabled
+2019-10-15 10:20:18:134 [HTTP] {}
+2019-10-15 10:20:18:135 [W3C (9949800b)] Calling AppiumDriver.elementEnabled() with args: ["c1279c4d-eafb-4688-b7f3-a8375ee12d7d","9949800b-43dc-4329-a1d8-77c6520e808a"]
+2019-10-15 10:20:18:136 [WD Proxy] Matched '/element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/attribute/enabled' to command name 'getAttribute'
+2019-10-15 10:20:18:136 [WD Proxy] Proxying [GET /element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/attribute/enabled] to [GET http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0/element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/attribute/enabled] with body: {}
+2019-10-15 10:20:18:187 [WD Proxy] Got response with status 200: "{\"sessionId\":\"9ef18bef-0001-4232-83f0-2f217e03cbf0\",\"status\":0,\"value\":\"true\"}"
+2019-10-15 10:20:18:187 [W3C (9949800b)] Responding to client with driver.elementEnabled() result: true
+2019-10-15 10:20:18:188 [HTTP] <-- GET /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/enabled 200 54 ms - 14
+2019-10-15 10:20:18:189 [HTTP] 
+2019-10-15 10:20:18:195 [HTTP] --> POST /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/click
+2019-10-15 10:20:18:195 [HTTP] {"id":"c1279c4d-eafb-4688-b7f3-a8375ee12d7d"}
+2019-10-15 10:20:18:196 [W3C (9949800b)] Calling AppiumDriver.click() with args: ["c1279c4d-eafb-4688-b7f3-a8375ee12d7d","9949800b-43dc-4329-a1d8-77c6520e808a"]
+2019-10-15 10:20:18:197 [WD Proxy] Matched '/element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/click' to command name 'click'
+2019-10-15 10:20:18:198 [WD Proxy] Proxying [POST /element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/click] to [POST http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0/element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/click] with body: {"element":"c1279c4d-eafb-4688-b7f3-a8375ee12d7d"}
+2019-10-15 10:20:18:260 [WD Proxy] Got response with status 200: {"sessionId":"9ef18bef-0001-4232-83f0-2f217e03cbf0","status":0,"value":true}
+2019-10-15 10:20:18:261 [W3C (9949800b)] Responding to client with driver.click() result: true
+2019-10-15 10:20:18:262 [HTTP] <-- POST /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/element/c1279c4d-eafb-4688-b7f3-a8375ee12d7d/click 200 66 ms - 14
+2019-10-15 10:20:18:262 [HTTP] 
+2019-10-15 10:20:18:284 [HTTP] --> POST /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/appium/app/close
+2019-10-15 10:20:18:285 [HTTP] {}
+2019-10-15 10:20:18:289 [W3C (9949800b)] Calling AppiumDriver.closeApp() with args: ["9949800b-43dc-4329-a1d8-77c6520e808a"]
+2019-10-15 10:20:18:290 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell am force-stop com.jtv.staging'
+2019-10-15 10:20:18:490 [W3C (9949800b)] Responding to client with driver.closeApp() result: null
+2019-10-15 10:20:18:491 [HTTP] <-- POST /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a/appium/app/close 200 207 ms - 14
+2019-10-15 10:20:18:491 [HTTP] 
+2019-10-15 10:20:18:494 [HTTP] --> DELETE /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a
+2019-10-15 10:20:18:495 [HTTP] {}
+2019-10-15 10:20:18:495 [W3C (9949800b)] Calling AppiumDriver.deleteSession() with args: ["9949800b-43dc-4329-a1d8-77c6520e808a"]
+2019-10-15 10:20:18:495 [BaseDriver] Event 'quitSessionRequested' logged at 1571149218495 (10:20:18 GMT-0400 (Eastern Daylight Time))
+2019-10-15 10:20:18:496 [Appium] Removing session 9949800b-43dc-4329-a1d8-77c6520e808a from our master session list
+2019-10-15 10:20:18:498 [UiAutomator2] Deleting UiAutomator2 session
+2019-10-15 10:20:18:499 [UiAutomator2] Deleting UiAutomator2 server session
+2019-10-15 10:20:18:500 [WD Proxy] Matched '/' to command name 'deleteSession'
+2019-10-15 10:20:18:500 [WD Proxy] Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/9ef18bef-0001-4232-83f0-2f217e03cbf0] with no body
+2019-10-15 10:20:18:543 [WD Proxy] Got response with status 200: "{\"sessionId\":\"9ef18bef-0001-4232-83f0-2f217e03cbf0\",\"status\":0,\"value\":\"Session deleted\"}"
+2019-10-15 10:20:18:544 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell am force-stop com.jtv.staging'
+2019-10-15 10:20:18:706 [UiAutomator2] Capability 'fullReset' set to 'true', Uninstalling 'com.jtv.staging'
+2019-10-15 10:20:18:706 [ADB] Uninstalling com.jtv.staging
+2019-10-15 10:20:18:707 [ADB] Getting install status for com.jtv.staging
+2019-10-15 10:20:18:707 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell dumpsys package com.jtv.staging'
+2019-10-15 10:20:18:800 [ADB] 'com.jtv.staging' is installed
+2019-10-15 10:20:18:800 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell am force-stop com.jtv.staging'
+2019-10-15 10:20:18:898 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 uninstall com.jtv.staging'
+2019-10-15 10:20:19:258 [Instrumentation] .
+2019-10-15 10:20:20:349 [Instrumentation] Time: 6.037
+2019-10-15 10:20:20:350 [Instrumentation] 
+2019-10-15 10:20:20:350 [Instrumentation] OK (1 test)
+2019-10-15 10:20:20:417 [Instrumentation] The process has exited with code 0
+2019-10-15 10:20:20:669 [ADB] 'adb uninstall com.jtv.staging' command output: Success
+2019-10-15 10:20:20:670 [ADB] com.jtv.staging was successfully uninstalled
+2019-10-15 10:20:20:671 [Logcat] Stopping logcat capture
+2019-10-15 10:20:20:673 [ADB] Removing forwarded port socket connection: 8200 
+2019-10-15 10:20:20:674 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 forward --remove tcp\:8200'
+2019-10-15 10:20:20:684 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2019-10-15 10:20:20:684 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell settings delete global hidden_api_policy_pre_p_apps'
+2019-10-15 10:20:20:847 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell settings delete global hidden_api_policy_p_apps'
+2019-10-15 10:20:20:912 [ADB] Running '/Users/sedmad1/Library/Android/sdk/platform-tools/adb -P 5037 -s 98892a383146365553 shell settings delete global hidden_api_policy'
+2019-10-15 10:20:20:983 [BaseDriver] Event 'quitSessionFinished' logged at 1571149220983 (10:20:20 GMT-0400 (Eastern Daylight Time))
+2019-10-15 10:20:20:983 [W3C (9949800b)] Received response: null
+2019-10-15 10:20:20:984 [W3C (9949800b)] But deleting session, so not returning
+2019-10-15 10:20:20:984 [W3C (9949800b)] Responding to client with driver.deleteSession() result: null
+2019-10-15 10:20:20:985 [HTTP] <-- DELETE /wd/hub/session/9949800b-43dc-4329-a1d8-77c6520e808a 200 2490 ms - 14
+2019-10-15 10:20:20:985 [HTTP] 
